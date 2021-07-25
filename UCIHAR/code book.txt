@@ -1,0 +1,16 @@
+The variables in the following files are explained here:
+
+Files:
+- UCI_HAR_tidy.txt
+- UCI_HAR_Summary.txt
+
+Variables:
+- activity_label: the activity the subject was engaged in, as manually transcribed from video footage.
+- subject: the id of the subject
+- domain: time (direct measurement) or frequency (from the Fast Fourier Transform (FFT))
+- source: source of acceleration (gravity or body)
+- measure: the actual measurement
+- statistic: the mean or the std deviation of the measure
+- axis: X, Y or Z. from the raw signals. Where NA, this is the magnitude calculated over all all axe
+- measurement: the measured value, in G's. In UCI_HAR_tidy.txt only.
+- mean(measurement): the mean of the measurement from UCI_HAR_tidy.txt. In UCI_HAR_Summary.txt only.
